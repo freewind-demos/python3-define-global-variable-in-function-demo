@@ -1,2 +1,8 @@
-if __name__ == "__main__":
-  print("Hello, Python!")
+def hello1():
+    global name
+    name = 'name1'
+    print("hello1, ", name)
+
+
+hello1()
+print("hello, ", name)
